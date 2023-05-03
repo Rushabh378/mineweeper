@@ -239,7 +239,7 @@ int main() {
   while (!exit) {
     ms.displayBoard();
     // uncomment below line if u want devmode or cheat.
-    ms.displayBoard("cheat");
+    // ms.displayBoard("cheat");
     cout << endl;
     cout << "* Enter row and col to sweep." << endl;
     cout << "* Enter 0 to flag or unflag bomb." << endl;
