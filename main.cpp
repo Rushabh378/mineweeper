@@ -230,8 +230,6 @@ public:
       cout << endl << "there was a bomb buddy u lost.\n";
     triggerBombs();
   }
-  // bool playerLose() { return lose; }
-  // bool playerWin() { return win; }
 };
 
 int main() {
