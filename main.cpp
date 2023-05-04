@@ -83,6 +83,7 @@ public:
   }
   // has mine?
   bool isMine(int row, int col) { return realBoard[row][col]; }
+  // this function sweep in show board according to provided row and column.
   void sweepAt(int row, int col, bool firstTime) {
     if (firstTime && isMine(row, col))
       realBoard[row][col] = 0;
@@ -271,5 +272,5 @@ int main() {
         exit = true;
     }
   }
-  cout << endl << "Thanks for playing my game.\nRegards Rishabh gohel.";
+  cout << endl << "Thanks for playing my game.\nRegards Rishabh gohel." << endl;
 }
